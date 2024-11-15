@@ -38,7 +38,7 @@ function Filter() {
         1&mdash; 3 guests
       </Button>
       <Button
-        filter="medirum"
+        filter="medium"
         handleFilter={handleFilter}
         activeFilter={activeFilter}
       >
