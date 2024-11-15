@@ -30,7 +30,9 @@ export default function Page({ searchParams }) {
       </p>
 
       <div className="flex justify-end mb-8">
-        <Filter />
+        <Suspense>
+          <Filter />
+        </Suspense>
       </div>
 
       <Suspense fallback={<Spinner />} key={filter}>
